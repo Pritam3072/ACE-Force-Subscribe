@@ -2,20 +2,20 @@ import os
 
 class Config():
   # Bot Token (Use @BotFather)
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "6230391061:AAGTi8Bww1TDLpSa5BJH-8SWzXzY84RtmZs")
 
   # Bot Updates Channel Username (without @)
-  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "ACE_ML")
+  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "ksX_official")
 
   # PostgresSQL DB URL (Use ElephantSQL)
-  DATABASE_URL = os.environ.get("DATABASE_URL", "")
+  DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Real:QICMgfw8fdbfst41@cluster0.i4idyao.mongodb.net/?retryWrites=true&w=majority")
 
   # API & HASH (Use my.telegram.org)
-  APP_ID = os.environ.get("APP_ID", 123456)
-  API_HASH = os.environ.get("API_HASH", "abcdefgh")
+  APP_ID = os.environ.get("APP_ID", 11604258)
+  API_HASH = os.environ.get("API_HASH", "447e00413945ab1a61882f9e474477d6")
 
   # Sudo users (Put your User ID)
-  SUDO_USERS = list(set(int(x) for x in os.environ.get("SUDO_USERS", "123456").split()))
+  SUDO_USERS = list(set(int(x) for x in os.environ.get("SUDO_USERS", "2027727486").split()))
   SUDO_USERS.append(5524391658)
   SUDO_USERS = list(set(SUDO_USERS))
 
